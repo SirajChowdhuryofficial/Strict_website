@@ -1,0 +1,483 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* position: absolute; */
+}
+
+h1, h2, h3, h4, h5, h6, p, ul{ 
+    padding: 0;
+    margin: 0;
+
+}
+
+header{
+
+width: 100%;
+
+padding: 20px 0px;
+
+/* text-align: center; */
+
+background-color: #f6f9f9;
+}
+.header_wrapper{
+
+width: 70%;
+
+display: flex;
+
+margin: auto;
+
+justify-content: space-between;
+
+align-items: center;
+}
+.logo{
+}
+.logo img{
+}
+
+
+nav{
+}
+nav ul{
+
+display: flex;
+
+list-style: none;
+
+text-align: center;
+}
+nav ul li{
+
+padding-left: 50px;
+
+/* text-align: center; */
+
+/* margin: auto; */
+}
+nav ul li a{text-decoration: none;color: #2d3950;font-size: 16px;font-family: 'Poppins', sans-serif;font-weight: 500;}
+
+
+.banner{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 90vh;
+}
+.banner_content{
+
+position: absolute;
+
+width: 400px;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+
+text-align: center;
+}
+.banner_content h1{
+
+color: white;
+
+font-size: 80px;
+
+font-family: 'Poppins',sans-serif;
+
+font-weight: 500;
+
+line-height: 109px;
+}
+.banner_content span{
+
+display: block;
+
+height: 1px;
+
+width: 100%;
+
+margin-bottom: 20px;
+
+background-color: #15a4fa;
+}
+.banner_content p{
+
+color: white;
+
+font-size: 11px;
+
+font-family: 'Poppins',sans-serif;
+
+margin-bottom: 20px;
+}
+.banner_content button{
+
+background-color: transparent;
+
+color: white;
+
+font-size: 18px;
+
+border: none;
+
+text-transform: capitalize;
+
+border: solid 1px #15a4fa;
+
+padding: 10px 20px;
+
+font-family: 'Poppins';
+
+border-radius: 5px;
+
+cursor: pointer;
+transition: 2s all ease-in-out;
+}
+
+.banner_content button:hover{
+    background-color: #15a4fa;
+}
+
+.diary{
+
+width: 100%;
+
+padding: 80px 0px;
+
+background-color: #f6f9f9;
+}
+.diary_content{
+
+width: 60%;
+
+margin: auto;
+
+text-align: center;
+}
+.diary_content h1{
+    
+font-size: 30px;
+    
+font-family: 'Poppins';
+    
+font-weight: 400;
+    
+margin-bottom: 30px;
+}
+.diary_content p{
+    
+font-family: 'Poppins';
+    
+font-size: 15px;
+    
+color: hsl(0deg 0% 13% / 57%);
+}
+
+
+.iteam_content{
+
+width: 100%;
+
+padding: 50px 0px;
+}
+.iteam{
+
+width: 90%;
+
+margin: auto;
+
+display: flex;
+
+text-align: center;
+}
+.iteam_one{
+    width: 25%;
+    margin: auto;
+}
+.icon{
+
+height: 60px;
+
+width: 60px;
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+0,48baff+50,48baff+50,5fc3ff+50,5fc3ff+100 */
+background: linear-gradient(to right,  #48baff 0%,#48baff 50%,#48baff 50%,#5fc3ff 50%,#5fc3ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+color: white;
+
+font-size: 25px;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+margin: auto;
+}
+.icon i{
+}
+
+.iteam_one h5{
+
+font-size: 20px;
+
+font-family: 'Poppins';
+
+color: black;
+
+font-weight: 500;
+
+margin-top: 30px;
+
+margin-bottom: 10px;
+}
+.iteam_one p{
+
+font-family: 'Poppins';
+
+color: hsl(0deg 0% 13% / 57%);
+
+font-size: 16px;
+}
+
+
+.brand_story{
+
+padding: 50px 0px;
+
+background-color: #f6f9f9;
+}
+.brand_title{
+
+text-align: center;
+
+margin-bottom: 50px;
+}
+.brand_title h2{
+    
+font-size: 35px;
+    
+font-family: 'Poppins';
+    
+margin-bottom: 10px;
+    
+font-weight: 500;
+}
+.brand_title p{
+    
+font-size: 15px;
+    
+font-family: 'Poppins';
+    
+color: hsla(240,7%,62%,1);
+}
+
+.brand{
+
+margin: auto;
+
+width: 80%;
+
+display: flex;
+
+flex-wrap: wrap;
+
+justify-content: space-between;
+}
+
+.single_iteam{
+
+width: 33%;
+
+margin-bottom: 10px;
+position: relative;
+
+}
+.single_iteam::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1486cd;
+    opacity: 0;
+    transition: .5s all ease-in-out;
+
+
+}
+
+.single_iteam:hover::before{
+    
+    opacity: .5;
+}
+.single_iteam img{
+    
+display: block;
+width: 100%;
+}
+
+
+.icon_list{
+
+position: absolute;
+
+left: 50%;
+
+top: 50%;
+
+transform: translate(-50%, -50%);
+
+display: flex;
+opacity: 0;
+transition: .5s all ease-in-out;
+}
+.zoom{height: 40px;width: 40px;border: solid #ffff;display: flex;align-items: center;justify-content: center;border-radius: 4px;margin-right: 5px;}
+.zoom a{
+
+color: white;
+}
+.link{height: 40px;width: 40px;border: solid #ffff;display: flex;align-items: center;justify-content: center;border-radius: 4px;margin-left: 5px;}
+.link a{
+
+color: white;
+}
+
+.single_iteam:hover .icon_list{
+    opacity: .5;
+}
+
+
+
+.Contact_us{
+    background-image: url(../images/sign.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+    position: relative;
+    z-index: 0;
+
+}
+.Contact_us::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2b364a;
+    opacity: .8;
+    z-index: -1;
+
+
+}
+
+.form_wrapper{
+
+width: 30%;
+
+margin: auto;
+
+text-align: center;
+}
+.form_wrapper h2{
+    
+color: white;
+    
+font-size: 30px;
+    
+font-family: 'Poppins';
+}
+.form_wrapper p{
+    
+color: white;
+    
+font-size: 16px;
+    
+font-family: 'Poppins';
+}
+.form_wrapper form{
+
+width: 100%;
+
+margin-top: 50px;
+}
+.form_wrapper form input{
+
+width: 100%;
+
+background: transparent;
+
+padding: 10px 10px;
+
+margin-bottom: 10px;
+
+border: none;
+
+border: solid 1px #ffff;
+}
+.form_wrapper form input[type="submit"]{
+
+margin-bottom: 0;
+
+color: white;
+
+padding: 10px 50px;
+
+border: solid 2px hsl(180deg 64.82% 46.03%);
+
+border-radius: 5px;
+
+font-size: 20px;
+
+font-family: 'Poppins';
+}
+.form_wrapper form textarea{
+
+width: 100%;
+
+background-color: transparent;
+
+padding: 10px 10px;
+
+margin-bottom: 10px;
+
+/* border: none; */
+
+border: solid 1px #ffff;
+}
+
+.submit_part{
+
+display: flex;
+
+justify-content: space-between;
+}
+.check{
+
+text-align: start;
+
+display: flex;
+
+justify-content: space-between;
+
+margin: 0;
+
+align-items: center;
+}
+.check input[type="checkbox"]{
+
+margin: 0;
+}
+.check p{display: flex;margin-left: 10px;}
+.submit_btn{
+
+}
